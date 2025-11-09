@@ -1,5 +1,4 @@
 import img from "./image.png";
-import androidStudio from "./android_studio.png";
 import figma from "./figma.png";
 import github from "./github.png";
 import mongo from "./mongo.png";
@@ -31,7 +30,7 @@ export const infoList = [
   },
 ];
 
-export const toolsData = [vscode, github, androidStudio, figma, mongo, postman];
+export const toolsData = [vscode, github,  figma, mongo, postman];
 
 export const serviceData = [
   {
@@ -64,41 +63,32 @@ export const serviceData = [
 ];
 
 export const myWorks = [
+    {
+        title: "StichMate",
+        description: "StichMate empowers tailors with easy bookings and direct customer reach.",
+        bgImage: "/stichmate.png",
+        links: {
+      frontend: "https://github.com/sandy0637R/BookMyTailor_Frontend.git",
+      backend: "https://github.com/sandy0637R/BookMyTailor_Backend.git",
+    },
+
+    },
+    {
+      title: "Land Lord",
+      description: "Web appication to manage the property papers digitially ",
+      bgImage: "/land-lord.png",
+      link: "https://land-lord.tech",
+    },
   {
-    title: "Land Lord",
-    description: "Web appication to manage the property papers digitially ",
-    bgImage: "/land-lord.png",
-    link: "https://land-lord.tech",
-  },
-  {
-    title: "ChatEzy",
-    description: "real time Chatting application ",
-    bgImage: "/chatezy.png",
-    link: "https://Chat-Ezy.onrender.com",
-  },
-  {
-    title: "Electronest",
-    description: "Ecom platform for Electronic items with admin panel",
+    title: "E-commerce Website",
+    description: "A basic E-commerce website built using react and redux.",
     bgImage: "/electronest.jpg",
-    link: "https://electronestapp.netlify.app",
+    link: "https://ecommerce-app-3mo8-omega.vercel.app/",
   },
   {
-    title: "Music app",
-    description: "Android Music app",
-    bgImage: "/music.jpeg",
-    link: "https://github.com/DeepakPandey2005/music-app.git",
-  },
-  {
-    title: "Coding info ",
-    description:
-      "Mobile app to view the official Docs of famous programming languages",
-    bgImage: "/code_info.png",
-    link: "https://github.com/DeepakPandey2005/Programming-info-App.git",
-  },
-  {
-    title: " Traffic post",
-    description: "Social media like application to make post about traffic",
-    bgImage: "/travel-info.jpg",
-    link: "https://traffic-app-topaz.vercel.app/",
+    title: "Career Guidance website",
+    description: "A static Career Guidance website.",
+    bgImage: "/career_guidance.png",
+    link: "https://career-guidance-mauve.vercel.app/",
   },
 ];
